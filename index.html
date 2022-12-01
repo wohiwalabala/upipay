@@ -1,7 +1,12 @@
 <!DOCTYPE html>
     <head>
         <title>Payment Demonstration</title>
-        <meta http-equiv="refresh" content="3; URL=upi://pay?pa=divb.2000@oksbi&pn=Divyansh%20Balchandani&am=50.00&cu=INR&tn=Paying%for%Demo%Workshop" />
+        <script>
+            function load() {
+                window.open("upi://pay?pa=divb.2000@oksbi&pn=Divyansh%20Balchandani&am=50.00&cu=INR&tn=Paying%for%Demo%Workshop");
+            }
+        </script>
+        <!--<meta http-equiv="refresh" content="3; URL=upi://pay?pa=divb.2000@oksbi&pn=Divyansh%20Balchandani&am=50.00&cu=INR&tn=Paying%for%Demo%Workshop" />-->
     </head>
     <body>
         <center><p>If you are on mobile and are not prompted to choose a payment application within 5 seconds, please <a href="upi://pay?pa=divb.2000@oksbi&pn=Divyansh%20Balchandani&am=50.00&cu=INR&tn=Paying%for%Demo%Workshop">click here</a>.</p>
